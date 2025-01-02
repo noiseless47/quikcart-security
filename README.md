@@ -2,7 +2,7 @@
 
 A Flutter-based mobile application designed to enhance retail security by verifying purchased items against their RFID tags. This app helps prevent theft and ensures inventory accuracy by matching items in a customer's bill with their physical RFID tags.
 
-## Features
+## 🛡️ Features
 
 - **QR Code Scanning**: Scan purchase receipts via QR codes
 - **RFID Verification**: Read RFID tags from purchased items
@@ -10,7 +10,7 @@ A Flutter-based mobile application designed to enhance retail security by verify
 - **Audio Feedback**: Distinct sounds for successful and failed scans
 - **Visual Status Updates**: Clear visual indicators for verified items
 
-## Technical Requirements
+## 🔧 Technical Requirements
 
 ### Prerequisites
 - Flutter SDK (Latest stable version)
@@ -30,7 +30,7 @@ dependencies:
   audioplayers: ^5.0.0
 ```
 
-## Setup Instructions
+## ⚙️ Setup Instructions
 
 1. **Clone the Repository**
    ```bash
@@ -126,7 +126,7 @@ Common issues and solutions:
 - Session data is cleared on app closure
 - No personal customer information is processed
 
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -134,7 +134,7 @@ Common issues and solutions:
 4. Push to branch
 5. Create Pull Request
 
-## License
+## 📝 License
 
 MIT License
 
@@ -158,6 +158,31 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Contact
+## 👥 Contact
 
-[Your contact information]
+<div align="left">
+ <p>
+   <strong>Developer:</strong> Asish Kumar Yeleti<br>
+   <a href="https://github.com/noiseless47">
+     <img src="https://img.shields.io/badge/GitHub-@noiseless47-181717?style=flat&logo=github"/>
+   </a>
+   <a href="https://www.linkedin.com/in/asishkumaryeleti/">
+     <img src="https://img.shields.io/badge/LinkedIn-Asish_Kumar_Yeleti-0077B5?style=flat&logo=linkedin"/>
+   </a>
+ </p>
+</div>
+
+## ⭐ Show Your Support
+If you find this project useful, please consider giving it a star on GitHub!
+
+_________________________________________________________________________________________
+
+## Developer Notes
+To run this project successfully:
+
+Use a physical device with NFC capabilities
+Ensure Android SDK 26+ is configured
+Enable NFC on your test device
+Check all required permissions are granted
+
+For issues and feature requests, please use the GitHub Issues page.
